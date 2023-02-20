@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+html {
+  overflow-y: scroll;
+}
+
+.floating-content {
+  width: 55%;
+  margin: 0 auto;
+  margin-top: 2%;
+  background-image: url("../images/dark_triangles.png");
+  background-repeat: repeat;
+  background-size: contain;
+  border-radius: 25px;
+  padding: 5px;
+  white-space: normal;
+  word-wrap: break-word;
+  min-width: 250px;
+}
+
+.blurb {
+  padding: 0% 20%;
+  color: #fff;
+}
+
+body {
+  background-image: url("../images/wood.jpg");
+  /* background-repeat: repeat; */
+  object-fit: fill;
+}
+
+.header {
+  display: inline-block;
+  padding-top: 20px;
+}
+.headerImageLogo {
+  display: "inline";
+  width: 60px;
+}
+
+.headerTitleText {
+  display: inline;
+  vertical-align: top; /* here */
+}
+
+.linkLogoImage {
+  width: 25px;
+  margin: 0 8px;
+}
