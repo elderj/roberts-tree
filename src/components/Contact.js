@@ -11,14 +11,10 @@ const Contact = () => (
     <Header />
     <NavBar />
     <p className="quicksand-text blurb">
-      <h4>Have some questions?</h4>
+      <h4>Get In Touch!</h4>
       <br />
-      <a
-        href="mailto:elderdesignconcepts@gmail.com?Subject=Elder Design Concepts:Contact"
-        target="_top"
-      >
-        Send an email
-      </a>{" "}
+      <p>Office: 406-499-2211</p>
+      <p>Cell: 406-210-4033</p>
       <br />
       <br />
       <h5>ElderDesignConcepts@gmail.com</h5>

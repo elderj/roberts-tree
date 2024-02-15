@@ -1,21 +1,18 @@
 {
   "name": "elderj",
   "version": "0.1.0",
-  "homepage": "https://elderdesignconcepts.com",
+  "homepage": "https://elderj.github.io/roberts-tree",
   "private": true,
   "dependencies": {
-    "gh-pages": "^2.0.1",
-    "node-sass": "^8.0.0",
-    "react": "^16.8.6",
+    "react": "18.2.0",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "3.0.1",
-    "sass-loader": "^13.2.0"
+    "react-scripts": "3.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "yarn run build && cp CNAME build/CNAME",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

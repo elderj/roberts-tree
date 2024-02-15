@@ -13,8 +13,6 @@ const NavBar = () => (
       {" | "}
       <Link to="/portfolio">Portfolio</Link>
       {" | "}
-      <Link to="/fitbit">Fitbit</Link>
-      {" | "}
       <Link to="/contact">Contact</Link>
     </p>
   </Fragment>

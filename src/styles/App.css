@@ -9,9 +9,9 @@ html {
   width: 55%;
   margin: 0 auto;
   margin-top: 2%;
-  background-image: url("../images/dark_triangles.png");
-  background-repeat: repeat;
-  background-size: contain;
+  background-image: url("../images/wood.jpg");
+  /* background-repeat: repeat; */
+  /* background-size: contain; */
   border-radius: 25px;
   padding: 5px;
   white-space: normal;
@@ -21,11 +21,11 @@ html {
 
 .blurb {
   padding: 0% 20%;
-  color: #fff;
+  color: #000;
 }
 
 body {
-  background-image: url("../images/wood.jpg");
+  background-image: url("../images/dark_triangles.png");
   /* background-repeat: repeat; */
   object-fit: fill;
 }

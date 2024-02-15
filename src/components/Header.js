@@ -2,12 +2,12 @@ import React, { Fragment } from "react";
 import "../styles/App.css";
 import "../styles/font.css";
 
-import logo from "../images/logo.png";
+import tree from "../images/tree.png";
 
 const Header = () => (
   <Fragment>
     <div className="header">
-      <img className="headerImageLogo" alt="Diamond Logo" src={logo} />
+      <img className="headerImageLogo" alt="Tree Logo" src={tree} />
       <h1 className="pacifico-text headerTitleText">
         Roberts Stumpgrinding and Tree Service
       </h1>
