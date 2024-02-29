@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 import "../styles/App.css";
-import "../styles/font.css";
 
 import tree from "../images/tree.png";
 

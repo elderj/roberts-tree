@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 import "../styles/App.css";
-import "../styles/font.css";
 
 import instagramLogo from "../images/linkLogoImages/instagram-logo.png";
 // import twitterLogo from "../images/linkLogoImages/twit.png";
@@ -18,7 +17,7 @@ const Footer = () => (
 
     <br />
     <h6 className="quicksand-text">
-      ©{currentYear.toString()} Roberts Stumpgrinding and Tree Service
+      ©{currentYear.toString()} Roberts Stumpgrinding & Tree Service
     </h6>
   </Fragment>
 );

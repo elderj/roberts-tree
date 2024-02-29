@@ -9,10 +9,8 @@ html {
   width: 55%;
   margin: 0 auto;
   margin-top: 2%;
-  background-image: url("../images/wood.jpg");
-  /* background-repeat: repeat; */
-  /* background-size: contain; */
-  border-radius: 25px;
+  background-color: #fff;
+  border-radius: 15px;
   padding: 5px;
   white-space: normal;
   word-wrap: break-word;
@@ -25,9 +23,8 @@ html {
 }
 
 body {
-  background-image: url("../images/dark_triangles.png");
-  /* background-repeat: repeat; */
-  object-fit: fill;
+  background-image: url("../images/wood2.jpg");
+  background-size: cover;
 }
 
 .header {
@@ -41,10 +38,63 @@ body {
 
 .headerTitleText {
   display: inline;
-  vertical-align: top; /* here */
+  vertical-align: top;
+  margin-left: 15px;
 }
 
 .linkLogoImage {
   width: 25px;
   margin: 0 8px;
+}
+
+/* Font Styling */
+.quicksand-text {
+  font-family: "Quicksand", sans-serif;
+}
+.pacifico-text {
+  font-family: "Anton";
+}
+
+p,
+h1 {
+  color: #000000;
+}
+
+h3 {
+  margin: 0%;
+}
+
+h4 {
+  color: #000000;
+  margin: 0%;
+}
+
+h5 {
+  margin: 2%;
+  color: #b0dc0f;
+  padding: 0;
+}
+
+h6 {
+  color: #000000;
+}
+
+/* unvisited link */
+a:link {
+  color: green;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: #b0dc0f;
+}
+
+/* selected link */
+a:active {
+  color: rgb(190, 190, 190);
 }

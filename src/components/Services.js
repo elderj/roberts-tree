@@ -5,13 +5,13 @@ import Header from "./Header";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 
-const Portfolio = () => (
+const Services = () => (
   <div className="floating-content">
     <NavBar />
     <Header />
     <br />
     <br />
-    <h4 className="quicksand-text">Pretty Pictures will go here soon</h4>
+    <h4 className="quicksand-text">Services and details will go here soon</h4>
     <br />
     <br />
     <br />
@@ -19,4 +19,4 @@ const Portfolio = () => (
   </div>
 );
 
-export default Portfolio;
+export default Services;

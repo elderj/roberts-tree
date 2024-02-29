@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 import "../styles/App.css";
-import "../styles/font.css";
 
 import { Link } from "react-router-dom";
 
@@ -9,11 +8,9 @@ const NavBar = () => (
     <p>
       <Link to="/">Home</Link>
       {" | "}
-      <Link to="/about">About</Link>
+      <Link to="/services">Our Services</Link>
       {" | "}
-      <Link to="/portfolio">Portfolio</Link>
-      {" | "}
-      <Link to="/contact">Contact</Link>
+      <Link to="/pastprojects">Past Projects</Link>
     </p>
   </Fragment>
 );
