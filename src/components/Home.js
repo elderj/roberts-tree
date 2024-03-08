@@ -22,7 +22,7 @@ const Home = () => (
     <br />
     <h4 className="quicksand-text">Owner: Doug & CJ Roberts</h4>
     <h4 className="quicksand-text">cjrdiver@gmail.com</h4>
-    <h4 className="quicksand-text">Isle of Palms SC, 29452</h4>
+    <h4 className="quicksand-text">Isle of Palms SC, 29451</h4>
     <br />
     <Footer />
   </div>

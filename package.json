@@ -1,7 +1,7 @@
 {
   "name": "elderj",
   "version": "0.1.0",
-  "homepage": "https://elderj.github.io/roberts-tree",
+  "homepage": "https://robertsstumpgrinding.com",
   "private": true,
   "dependencies": {
     "react": "18.2.0",
