@@ -9,12 +9,6 @@ const PhotoSlider = ({ photoUrls }) => {
     );
   };
 
-  const prevPhoto = () => {
-    setCurrentPhotoIndex((prevIndex) =>
-      prevIndex === 0 ? photoUrls.length - 1 : prevIndex - 1
-    );
-  };
-
   useEffect(() => {
     const intervalId = setInterval(nextPhoto, 5000);
     return () => clearInterval(intervalId);
@@ -23,12 +17,11 @@ const PhotoSlider = ({ photoUrls }) => {
   return (
     <div className="gallery">
       <img
+        onClick={() => nextPhoto()}
         src={photoUrls[currentPhotoIndex]}
         alt={`Photo ${currentPhotoIndex + 1}`}
         className="gallery-image"
       />
-      <button onClick={prevPhoto}>Previous</button>
-      <button onClick={nextPhoto}>Next</button>
     </div>
   );
 };

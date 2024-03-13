@@ -20,6 +20,7 @@ const Portfolio = () => {
     <div className="floating-content">
       <NavBar />
       <Header />
+      <br />
       <PhotoSlider photoUrls={photoUrls} />
       <Footer />
     </div>

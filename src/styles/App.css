@@ -42,9 +42,28 @@ body {
   margin-left: 15px;
 }
 
+ul {
+  list-style: none; /* Remove bullet points */
+  /* padding: 0; Remove default padding */
+}
+
+li {
+  display: flex; /* Use flexbox layout */
+  align-items: center; /* Vertically align items */
+  justify-content: center;
+  /* padding-bottom: 8px; */
+}
+
+.linkText {
+  margin-bottom: 10px;
+  /* vertical-align: super; */
+  padding-right: 20px;
+}
+
 .linkLogoImage {
   width: 25px;
-  margin: 0 8px;
+  height: 25px; /* Set the height of the logo images */
+  margin-right: 10px; /* Add spacing between the image and text */
 }
 
 /* Font Styling */
@@ -123,9 +142,11 @@ a:active {
   font-size: 1.1rem;
   font-weight: bold;
   text-align: center;
-  color: #ffffff; /* White text color */
-  background-color: green; /* Blue background color */
   padding: 15px; /* Add padding around the text */
   border-radius: 10px; /* Add border radius to create rounded corners */
   margin-top: 20px; /* Add some space between the services and the call-to-action */
+}
+
+.ctaNumber {
+  color: green;
 }

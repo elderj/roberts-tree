@@ -14,7 +14,7 @@ const Services = () => (
       <p className="service-description">
         At Roberts Stumpgrinding & Tree Service, we offer a wide range of tree
         care services to residents and businesses in the Isle of Palms,
-        Sullivan's Island, Mount Pleasant, and Charleston SC areas. Our team of
+        Sullivan's Island, Mount Pleasant, and Charleston, SC areas. Our team of
         experienced arborists is committed to providing high-quality and
         professional tree services to ensure the health, safety, and beauty of
         your trees and property.
@@ -48,8 +48,8 @@ const Services = () => (
         </p>
       </div>
       <p className="call-to-action">
-        Call 406-210-4033 today for a free quote or with any questions you may
-        have!
+        Call <span className="ctaNumber">406-210-4033</span> today for a free
+        quote or with any questions you may have!
       </p>
     </div>
     <Footer />
