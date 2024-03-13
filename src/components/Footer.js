@@ -11,13 +11,15 @@ const Footer = () => (
     {/* <a href="https://twitter.com/ElderDesignCo">
       <img className="linkLogoImage" alt="Twitter logo" src={twitterLogo} />
     </a> */}
-    <a href="https://www.instagram.com/elderdesignconcepts/">
+    {/* <a href="https://www.instagram.com/elderdesignconcepts/">
       <img className="linkLogoImage" alt="Instagram Logo" src={instagramLogo} />
-    </a>
+    </a> */}
 
     <br />
     <h6 className="quicksand-text">
       ©{currentYear.toString()} Roberts Stumpgrinding & Tree Service
+      <br />
+      Isle of Palms SC, 29451
     </h6>
   </Fragment>
 );

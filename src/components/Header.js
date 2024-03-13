@@ -8,7 +8,7 @@ const Header = () => (
     <div className="header">
       <img className="headerImageLogo" alt="Tree Logo" src={tree} />
       <h1 className="pacifico-text headerTitleText">
-        Roberts Stumpgrinding and Tree Service
+        Roberts Stumpgrinding & Tree Service
       </h1>
     </div>
   </Fragment>

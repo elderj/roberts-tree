@@ -12,7 +12,7 @@ const Home = () => (
     <br />
     <h3 className="quicksand-text">Licensed and Insured</h3>
     <br />
-    <h3 className="quicksand-text">Call for a quote!</h3>
+    <h3 className="quicksand-text">Call today for a free quote!</h3>
     <br />
     <h4 className="quicksand-text">Office: 406-499-2211</h4>
     <h4 className="quicksand-text">Cell: 406-210-4033</h4>
@@ -20,7 +20,6 @@ const Home = () => (
     <br />
     <h4 className="quicksand-text">Owner: Doug & CJ Roberts</h4>
     <h4 className="quicksand-text">cjrdiver@gmail.com</h4>
-    <h4 className="quicksand-text">Isle of Palms SC, 29451</h4>
     <br />
     <Footer />
   </div>

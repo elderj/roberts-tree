@@ -98,3 +98,34 @@ a:hover {
 a:active {
   color: rgb(190, 190, 190);
 }
+
+.services-container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.gallery {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); */
+  justify-items: center; /* Center the items horizontally */
+  align-items: center; /* Center the items vertically */
+  gap: 20px; /* Increase the gap between images for better visual separation */
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+  max-width: 75%;
+  border-radius: 10px;
+}
+
+.call-to-action {
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff; /* White text color */
+  background-color: green; /* Blue background color */
+  padding: 15px; /* Add padding around the text */
+  border-radius: 10px; /* Add border radius to create rounded corners */
+  margin-top: 20px; /* Add some space between the services and the call-to-action */
+}
