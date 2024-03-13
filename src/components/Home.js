@@ -3,8 +3,8 @@ import "../styles/App.css";
 import Header from "./Header";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
-import googleLogo from "../images/g.png";
-import nextDoorLogo from "../images/linkLogoImages/instagram-logo.png";
+// import googleLogo from "../images/g.png";
+// import nextDoorLogo from "../images/linkLogoImages/instagram-logo.png";
 
 const Home = () => (
   <div className="floating-content">

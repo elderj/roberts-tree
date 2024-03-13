@@ -12,6 +12,7 @@ const PhotoSlider = ({ photoUrls }) => {
   useEffect(() => {
     const intervalId = setInterval(nextPhoto, 5000);
     return () => clearInterval(intervalId);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
@@ -19,7 +20,7 @@ const PhotoSlider = ({ photoUrls }) => {
       <img
         onClick={() => nextPhoto()}
         src={photoUrls[currentPhotoIndex]}
-        alt={`Photo ${currentPhotoIndex + 1}`}
+        alt={`treework-${currentPhotoIndex + 1}`}
         className="gallery-image"
       />
     </div>
