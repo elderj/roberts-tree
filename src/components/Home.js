@@ -33,7 +33,7 @@ const Home = () => (
         </a>
       </li>
       <li>
-        <a href="https://nextdoor.com/pages/roberts-stumpgrinding-isle-of-palms-sc/">
+        <a href="https://nextdoor.com/pages/roberts-stumpgrinding-and-tree-service-mount-pleasant-sc/">
           <span className="linkText">NextDoor</span>
           {/* <img
             className="linkLogoImage"

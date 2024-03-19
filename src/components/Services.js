@@ -11,20 +11,21 @@ const Services = () => (
     <div className="services-container">
       <h2 className="section-title">Our Services</h2>
       <p className="service-description">
-        At Roberts Stumpgrinding & Tree Service, we offer a wide range of tree
-        care services to residents and businesses in the Isle of Palms,
-        Sullivan's Island, Mount Pleasant, and Charleston, SC areas. Our team of
-        experienced arborists is committed to providing high-quality and
-        professional tree services to ensure the health, safety, and beauty of
-        your trees and property.
+        At Roberts Stumpgrinding & Tree Service, we are a family-owned tree
+        service company local to the Isle of Palms and Mount Pleasant area. We
+        offer a wide range of tree care services, including palm and tree
+        trimming, tree takedown, yard cleanout, and stump grinding at great
+        prices. We take pride in making your trees and yard look beautiful,
+        using an artful approach to trimming Oaks, Palms, or any other types of
+        trees.
       </p>
       <div className="service">
         <h3 className="service-title">Tree Removal</h3>
         <p className="service-description">
-          We specialize in safe and efficient tree removal services. Whether you
-          have a dead, diseased, or hazardous tree that needs to be removed, our
-          skilled arborists will assess the situation and carefully remove the
-          tree without causing damage to your property.
+          Our skilled arborists will assess the situation and carefully remove
+          the tree without causing damage to your property. We do not use large
+          machinery; instead, we utilize climbers, ensuring a yard-friendly
+          approach.
         </p>
       </div>
       <div className="service">
@@ -43,7 +44,8 @@ const Services = () => (
           After a tree is removed, the stump left behind can be unsightly and
           hazardous. We offer professional stump grinding services to safely and
           effectively grind down tree stumps, allowing you to reclaim your
-          outdoor space and prevent tripping hazards.
+          outdoor space and prevent tripping hazards. Our stump grinder is on
+          tracks and will fit through a 33-inch gate.
         </p>
       </div>
       <p className="call-to-action">
